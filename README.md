@@ -29,7 +29,7 @@ Each of the 20 3D Landmarks:
 ![This is an image](https://mediapipe.dev/images/mobile/hand_landmarks.png)
 
 
-output their corrdinates in relation to landmark 0 in real time once a hand is detected 
+output their corrdinates in relation to landmark 0 at a speed of about 13/FPS once a hand is detected 
 
 ![Screen Shot 2023-02-01 at 7 35 54 PM](https://user-images.githubusercontent.com/91762926/216209567-3feb025b-009a-4632-9cc2-92df1bbed158.png)
 
