@@ -1,0 +1,48 @@
+# AIGameControl
+Welcome to this repo! Here I have used Google's Mediapipe Hands to create a machine learning module for a hand tracking game controller
+that breaks the screen down into the regions: up, down, left, right. 
+And it all happens on the CPU!
+
+![Screen Shot 2023-02-01 at 7 36 11 PM](https://user-images.githubusercontent.com/91762926/216210618-5eef1586-1f7f-48d1-9f0e-c7057c7db771.png)
+
+
+## What is MediaPipe Hands?
+Initally to train a hand tracking model you would need an ML pipeline, as many samples of hands as you can get (with a variety on backgrounds, skintones, lighting, ect), and GPU.
+
+
+
+
+However, MediaPipe has done the heavy lifting here to allow this game controller to function in on-device and in real time. Essentially using this architecture:
+
+![This is an image](https://media.arxiv-vanity.com/render-output/5947185/hand_landmark_model.png)
+
+To place 20 3-D hand landmarks (very accuratly) (average precision of 95.7%)
+
+![This is an image](https://media.arxiv-vanity.com/render-output/5947185/dataset.png)
+
+read wayyyy more detailed description here: 
+https://www.arxiv-vanity.com/papers/2006.10214/
+
+## Purpose
+Each of the 20 3D Landmarks:
+
+![This is an image](https://mediapipe.dev/images/mobile/hand_landmarks.png)
+
+
+output their corrdinates in relation in relation to landmark 0 in real time once a hand is detected 
+
+![Screen Shot 2023-02-01 at 7 35 54 PM](https://user-images.githubusercontent.com/91762926/216209567-3feb025b-009a-4632-9cc2-92df1bbed158.png)
+
+
+My goal was to focus using the coordinates in reference to the plane they are on. Instead of the 20 landmarks, I only took landmark 0 (at the base of the hand). 
+This module tracks the base of the hand in relation to the screen on a plane of about 1200x720 to develop the controls: UP, DOWN, LEFT, RIGHT.
+
+watch me demo it here: https://youtu.be/upNaenRRoZs
+
+hints: 
+* keep maxNumHands = 1 to avoid confusion (you may switch between hands while it is running)
+* SCOOT BACK in your camera for more accuracy
+* remember the base of your palm is what is being tracked (landmark 0)
+
+
+
