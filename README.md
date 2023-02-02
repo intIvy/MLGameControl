@@ -7,7 +7,7 @@ And it all happens on the CPU!
 
 
 ## What is MediaPipe Hands?
-Initally to train a hand tracking model you would need an ML pipeline, as many samples of hands as you can get (with a variety on backgrounds, skintones, lighting, ect), and GPU.
+Traditionally to train your own hand tracking model you would need as many samples of hands as you can get (with a variety on backgrounds, skintones, lighting, ect) to push through your ML pipeline with time and GPU.
 
 
 
@@ -29,7 +29,7 @@ Each of the 20 3D Landmarks:
 ![This is an image](https://mediapipe.dev/images/mobile/hand_landmarks.png)
 
 
-output their corrdinates in relation in relation to landmark 0 in real time once a hand is detected 
+output their corrdinates in relation to landmark 0 in real time once a hand is detected 
 
 ![Screen Shot 2023-02-01 at 7 35 54 PM](https://user-images.githubusercontent.com/91762926/216209567-3feb025b-009a-4632-9cc2-92df1bbed158.png)
 
@@ -40,7 +40,7 @@ This module tracks the base of the hand in relation to the screen on a plane of 
 watch me demo it here: https://youtu.be/upNaenRRoZs
 
 hints: 
-* keep maxNumHands = 1 to avoid confusion (you may switch between hands while it is running)
+* keep maxNumHands = 1 to avoid confusion (however you may switch between hands while it is running)
 * SCOOT BACK in your camera for more accuracy
 * remember the base of your palm is what is being tracked (landmark 0)
 
