@@ -34,7 +34,7 @@ output their corrdinates in relation to landmark 0 at a speed of about 13/FPS on
 ![Screen Shot 2023-02-01 at 7 35 54 PM](https://user-images.githubusercontent.com/91762926/216209567-3feb025b-009a-4632-9cc2-92df1bbed158.png)
 
 
-My goal was to focus using the coordinates in reference to the plane they are on. Instead of the 20 landmarks, I only took landmark 0 (at the base of the hand). 
+My goal was to focus using the coordinates in reference to the 2-D plane they are on. Instead of the 20 landmarks, I only took landmark 0 (at the base of the hand). 
 This module tracks the base of the hand in relation to the screen on a plane of about 1200x720 to develop the controls: UP, DOWN, LEFT, RIGHT.
 
 watch me demo it here: https://youtu.be/upNaenRRoZs
