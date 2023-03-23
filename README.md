@@ -1,6 +1,6 @@
 # MLGameControl
 Welcome to this repo! Here I have used Google's Mediapipe Hands to create a machine learning module for a hand tracking game controller
-that breaks the screen down into the regions: up, down, left, right. 
+that interprets the location of your hand in the camera into the controls: up, down, left, right. 
 And it all happens on the CPU!
 
 ![Screen Shot 2023-02-01 at 7 36 11 PM](https://user-images.githubusercontent.com/91762926/216210618-5eef1586-1f7f-48d1-9f0e-c7057c7db771.png)
