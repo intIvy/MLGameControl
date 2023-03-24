@@ -18,7 +18,7 @@ However, MediaPipe has done the heavy lifting here to allow this game controller
 
 To place 20 3-D hand landmarks (very accuratly) (average precision of 95.7%)
 
-![This is an image](https://media.arxiv-vanity.com/render-output/5947185/dataset.png)
+![This is an image]([https://media.arxiv-vanity.com/render-output/5947185/dataset.png](https://1.bp.blogspot.com/-8SxmsK5VoJ0/XVrTpMrJDFI/AAAAAAAAEiM/nAa3vuj8a2sjgEPAeMKXD4m09yKUgjVIQCLcBGAs/s640/Screenshot%2B2019-08-19%2Bat%2B9.51.25%2BAM.png))
 
 read wayyyy more detailed description here: 
 https://www.arxiv-vanity.com/papers/2006.10214/
