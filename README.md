@@ -14,7 +14,7 @@ Traditionally to train your own hand tracking model you would need as many sampl
 
 However, MediaPipe has done the heavy lifting here to allow this game controller to function in on-device and in real time. Essentially using this architecture:
 
-![This is an image](https://media.arxiv-vanity.com/render-output/5947185/hand_landmark_model.png)
+![This is an image](https://1.bp.blogspot.com/-s_rfpl9S-sQ/XVrS_bzhcKI/AAAAAAAAEhc/_OrSe3VDLt8o1L6l2mA5HJsaqVZdaObpgCEwYBhgL/s1600/image5.png)
 
 To place 20 3-D hand landmarks (very accuratly) (average precision of 95.7%)
 
