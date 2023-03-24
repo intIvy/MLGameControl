@@ -138,8 +138,10 @@ def calc_control(image, landmarks): #determines controls
 
 
         landmark_point.append([landmark_x, landmark_y])
-
-        if 300<landmark_x<900 and 0<landmark_y<350:  #see README for ID chart depicting sections
+        
+        #see README for ID chart depicting sections
+        # adjust print statements to desired variable type of output
+        if 300<landmark_x<900 and 0<landmark_y<350:  
             print("up")
         if 300<landmark_x<900 and 350<landmark_y<720:
             print("down")
